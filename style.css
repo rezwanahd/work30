@@ -1,0 +1,138 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+/* Header Navbar */
+.navbar-brand span {
+    display: inline-block;
+    font-size: 26px;
+    color: #fc5e03;
+    padding: 4px 4px;
+    border: 2px solid #fc5e03;
+    border-radius: 10px;
+    position: relative;
+    top: 2px;
+    left: 6px;
+}
+
+.header-top .navbar-brand {
+    font-size: 25px;
+    font-weight: 500;
+}
+.login {
+    color: #fc5e03;
+    border: 2px solid #fc5e03;
+    font-weight: 600;
+}
+.login:hover{
+    color: white;
+    background:#fc5e03 ;
+}
+
+.header-menu .nav-link {
+    padding: 8px 15px !important;
+    font-size: 18px;
+    color: #000 !important;
+}
+.nav-link:hover{
+    color: #fc5e03 !important;
+}
+
+/* Slider Section */
+
+.slider-section{
+    background: url("img/ia_200000012.jpg") no-repeat center center rgba(0,0,0,0.4);
+    background-size: cover;
+    padding: 200px 0;
+    background-blend-mode: overlay;
+}
+.slider-contain h5 {
+    font-size: 24px;
+    font-weight: 400;
+}
+.slider-contain h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.read-more{
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #fc5e03 ;
+}
+.read-more:hover{
+    color: white;
+    background:#fc5e03 ;
+}
+
+/* About Section */
+
+
+.about-section{
+    background: #f7f9ff;
+}
+.about-text {
+    padding-top: 200px;
+    padding-right: 77px;
+}
+.about-text h2{
+    font-size: 33px;
+    padding-bottom: 20px;
+}
+.about-text p{
+    font-size: 17px;
+    text-align: justify;
+}
+.about-img{}
+
+.learn-more{
+    color: #fc5e03;
+    font-size: 15px;
+    border: 1px solid #fc5e03 ;
+}
+.learn-more:hover{
+    color: white;
+    background:#fc5e03 ;
+}
+.box{
+    border:none;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+
+}
+
+
+/* Counter Section */
+
+.counter-items .h2 {
+    font-size: 55px;
+}
+.counter-items .text-muted{
+    font-size: 20px;
+
+}
+
+/* Portfolio Section */
+
+.portfolio-item{}
+.portfolio-item a{
+    display: block;
+    position: relative;
+}
+.portfolio-item a::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(98, 120, 223, .6);
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+.portfolio-item:hover a::before{
+    opacity: 1;
+    visibility: visible;
+}
